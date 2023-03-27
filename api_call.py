@@ -1,7 +1,7 @@
 import requests
 import json
 import sseclient
-API_KEY = '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'
+API_KEY = 'API_KEY'
 
 def performRequestWithStreaming(model, prompt, max_tokens, temperature, stream=True):
     reqURL = 'https://api.openai.com/v1/completions'
